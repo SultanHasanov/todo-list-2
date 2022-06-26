@@ -1,0 +1,49 @@
+ /*
+          стили написаны исключительно для быстрого примера. Они не относятся
+          к понятию "эталонности". Листай ниже и смотри код JavaScript.
+        */
+ body {
+     font-family: Helvetica, serif;
+     width: 500px;
+     margin: 10px auto;
+     
+ }
+
+ form {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 18px;
+     padding-bottom: 15px;
+     margin-bottom: 15px;
+     margin-top: 100px;
+     border-bottom: 1px solid lightgray;
+ }
+
+ form input {
+     flex: 1;
+     margin: 0 10px;
+     font-size: 18px;
+ }
+
+ form button {
+     font-size: 18px;
+ }
+
+ .list__item {
+     display: flex;
+     font-size: 18px;
+     padding: 20px 0;
+     border-bottom: 1px solid lightgray;
+     justify-content: space-between;
+ }
+
+ .list__text {
+     flex: 1;
+     margin-left: 10px;
+ }
+
+ .list__item_checked {
+     background-color: lightgray;
+ }
